@@ -1,0 +1,19 @@
+package main // entry point
+
+import "fmt" // importing "fmt" package 
+
+func main() {
+	speed := 100 // date type int
+	force := 2.5 // data type float64
+  
+	// we need to convert speed and force both into float64
+  
+	speed = int(float64(speed) * force)
+  
+  //float(100) = 100.0
+  //float(2.5) = 2.5
+  //int(250.0) = 250
+  
+	fmt.Println(speed)
+
+}
