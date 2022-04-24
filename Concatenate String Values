@@ -1,0 +1,9 @@
+package main
+
+import "fmt"
+
+func main() {
+	color := "Green"
+	color = "Black" + color // concatenate string values
+	fmt.Println(color)
+}
