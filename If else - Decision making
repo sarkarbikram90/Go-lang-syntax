@@ -1,0 +1,15 @@
+package main
+ 
+import "fmt"
+ 
+func main() {
+ 
+ age := 15
+ 
+// If Statement
+  
+if age >= 16 {
+fmt.Println("Adult")
+} else {
+fmt.Println("Not an adult")
+}
